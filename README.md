@@ -1,2 +1,2 @@
-# HiJohnnyZ.github.io
+# hijohnnyz.github.io
 Pages Main
