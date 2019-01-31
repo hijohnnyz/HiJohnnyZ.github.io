@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link href='https://fonts.googleapis.com/css?family=Sarabun' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Latitude vs Wind Speed</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="index.html">
+                    <span class="nav-color">Weather Analysis</span></a>
+                </div>  
+                <div class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="temps.html">Max Temperature</a></li>
+                            <li><a href="humid.html">Humidity</a></li>
+                            <li><a href="cloud.html">Cloudiness</a></li>
+                            <li><a href="winds.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comps.html">Comparison</a></li>
+                    <li><a href="datum.html">Data</a></li>
+                </div>
+            </div>
+        </nav>
+        <div id="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h2><center>Latitude vs Wind Speed</center></h2>
+                            <hr>
+                            <center><img src="Resources/assets/images/Fig4.png" alt="image #4"></center>
+                            <center><p class="text">
+                                    This graph represents the relationship between a city's geographic location (latitiude) and it's reported <br>
+                                    wind speeds. What we can see from this graph is that there are no observable trends along various locations<br>
+                                    around the equator other than the fact that most of the cities have wind speeds under 20mph.<br>
+                                </p></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
